@@ -5,28 +5,23 @@ app = Flask('app')
 basliklar = [
     {
         "id": 1,
-        "baslik": "28 Aralık Python Bayramı",
+        "baslik": "python eğitimi",
         "yazilar": ["yazi1", "yazi2", "yazi3"]
     },
     {
         "id": 2,
-        "baslik": "Ücret zamları",
+        "baslik": "resmi bayramlar",
         "yazilar": ["yazi11", "yazi22", "yazi3"]
     },
     {
         "id": 3,
-        "baslik": "Veri bilimi üzerine",
+        "baslik": "zamlar",
         "yazilar": ["yazi111", "yazi222", "yazi333"]
     },
     {
         "id": 4,
-        "baslik": "Yılbaşı geliyor",
+        "baslik": "2024 trendler",
         "yazilar": ["yazi1111", "yazi2222", "yazi3333"]
-    },
-    {
-        "id": 5,
-        "baslik": "2024 mesajları",
-        "yazilar": ["yazi11111", "yazi22222", "yazi33333"]
     }
 ]
 
