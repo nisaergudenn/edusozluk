@@ -1,0 +1,2 @@
+# edusozluk
+main.py
