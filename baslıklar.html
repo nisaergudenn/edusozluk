@@ -1,0 +1,16 @@
+from flask import Flask
+app = Flask ('app')
+
+@app.route ('/')
+def home_page ():
+  basliklar = [
+    'python eğitimi', 'resmi bayramlar', 'zamlar', '2024 trendler'
+  ]
+  icerikler = ""
+  for yazi in basliklar:
+    icerikler += "<li><a href= 'baslik_goster?id={baslik}'>{baslik}</a></li>".format(baslik=yazi)
+    
+  html_sablon = "<html><body><h1>içerikler</h1><ul></ul></body></html>"
+  return html_sablon.format(icerikler=icerikler) 
+
+app.run(host= '0.0.0.0', port = 8080)
